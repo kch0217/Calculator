@@ -1,7 +1,7 @@
 Calculator
 ==========
 
-######Simple java based calculator made for learning purrposes
+######Simple java based calculator made for learning purpose.
 
 ###Goals and Future plans
 *Completed goals are strike-through*
