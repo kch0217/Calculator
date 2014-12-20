@@ -10,4 +10,4 @@ Calculator
 * Upgrade this basic addition calculator to basic arithmetic calculator
 * Initially, develop the front end in AWT
 * Then, develop the front end in Swing
-* Finaly, Develop the front end in JavaFX
+* Finally, Develop the front end in JavaFX
