@@ -10,17 +10,17 @@ public class CalculatorController{
 		this.view = view;
 	
 		this.view.launchUI();
-		this.view.setButtonActionListener(new ActionHandler());
+		// this.view.setButtonActionListener(new ActionHandler());
 		this.view.setFrameWindowListener(new WindowHandler());
 	}
 
 	//Inner class IMPLEMENTING ActionListener
-	public class ActionHandler implements ActionListener{
-		public void actionPerformed(ActionEvent ae){
-			model.addition(view.getInputFieldOne(), view.getInputFieldTwo());
-			view.setInputFieldThree(model.getAddResult());
-		}
-	} 
+	// public class ActionHandler implements ActionListener{
+	// 	public void actionPerformed(ActionEvent ae){
+	// 		model.addition(view.getInputFieldOne(), view.getInputFieldTwo());
+	// 		view.setInputFieldThree(model.getAddResult());
+	// 	}
+	// } 
 
 	//Inner class EXTENDING WindowAdapter
 	public class WindowHandler extends WindowAdapter{
