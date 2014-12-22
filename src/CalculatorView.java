@@ -105,8 +105,8 @@ public class CalculatorView{
 		f.setVisible(true);
 	}
 
-	//Method to GET VALUE of TextField "inputFieldOne" in double format
-	// public double getInputFieldOne(){
+	// Method to GET VALUE of TextField "inputFieldOne" in double format
+	// public double getInputField(){
 	// 	return (Double.parseDouble(inputFieldOne.getText()));
 	// }
 
