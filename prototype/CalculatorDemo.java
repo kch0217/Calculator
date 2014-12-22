@@ -89,32 +89,34 @@ public class CalculatorDemo{
 				default :   inBox.setText("XXXXXXXXXX");
 			}
 			System.out.println("Occurence A | valueTwo: " + valueTwo);
+			System.out.println("Occurence A | answer: " + answer);
 		}
 
 		public void displayFormatting(String num){
 			initString = inBox.getText();
 			finalString = initString;
+			
 
 			System.out.println("Occurence 1 | initString: " + initString);
 			System.out.println("Occurence 1 | finalString: " + finalString);
 
 			if(num == "+" || num == "-"){
-				inBox.setText(" ");
 				sign = num;
+				inBox.setText("");
 				valueOne = Double.parseDouble(finalString);
 				System.out.println("Occurence A | valueOne: " + valueOne);
 			}
 			else if(num == "="){
-				inBox.setText(" ");
+				inBox.setText("");
 				calculateResult(sign);
 			}
 			else{
 				currentString = num;
 				finalString = initString + currentString;
+				inBox.setText(finalString);
 				System.out.println("Occurence 2 | finalString: " + finalString);
 			}				
 
-			inBox.setText(finalString);
 			System.out.println("Occurence 3 | finalString: " + finalString);
 			System.out.println(" ");			
 		}
