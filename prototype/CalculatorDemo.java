@@ -82,7 +82,7 @@ public class CalculatorDemo{
 							break;
 				
 				case "-" :  valueTwo = Double.parseDouble(finalString);
-							answer = valueOne + valueTwo;
+							answer = valueOne - valueTwo;
 							inBox.setText(String.valueOf(answer));
 							break;
 
